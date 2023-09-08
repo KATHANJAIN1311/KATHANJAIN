@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jain fitness</title>
+</head>
+<link rel="https://fonts.google.com/specimen/Pacifico" href="">
+<link rel="stylesheet" href="css/css.style">
+<style>
+    /* css style */
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('https://cdn.pixabay.com/photo/2015/07/02/10/23/training-828741_1280.jpg');
+}
+.left{
+    display: inline-block;
+    top: 11px;
+    left: 34px;
+    position: absolute;
+    font-size: 20px;
+}
+.left img{
+    width: 121px;
+}
+.mid{
+    display: block;
+    width: 33%;
+    margin: 12px auto ;
+}
+.right{
+    border: 2px solid pink;
+    display: inline-block;
+    top: 20px;
+    right: 34px;
+    position: absolute;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 16px;
+}
+.navbar li a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover , .navbar li a:active{
+     text-decoration: underline;
+     color: lightgrey;
+}
+.btn{
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(185, 236, 236);
+}
+.container{
+    border: 2px solid white;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 450px;
+    padding: 2px;
+    margin:11px auto;
+    border: 2px solid black;
+    font-size: 25px;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    margin: 31px auto;
+    width: 453px;
+}
+@media only screen and (max-width:1000px) and (min-width:300px) {
+    #navbar{
+        display: block;
+    }
+}
+@media only screen and (max-width:1000px) and (min-width:300px) {
+    #div ul{
+        display: block;
+    }
+}
+@media only screen and (max-width:900px) and (min-width:300px) {
+    #divcontainer{
+        display: block;
+    }
+}
+</style>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+    <img src="https://cdn.pixabay.com/photo/2016/11/05/08/27/barbel-1799666_1280.png" alt="">
+    <div>Jain fitness club</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+    <ul class="navbar">
+        <li><a href="#">home</a></li>
+        <li><a href="#">about us</a></li>
+        <li><a href="#">fitness calculator</a></li>
+        <li><a href="#">contact</a></li>
+    </ul>          
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+    <button class="btn">Call us now</button>
+    <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join Best Gym In Neemuch Now</h1>
+        <form action="noaction.php">
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your gender">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your age">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your locality">
+        </div>
+        <button class="btn">submit</button>
+    </form>
+    </div>
+</body>
+</html>
